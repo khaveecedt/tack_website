@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.rounded-profile-bg-large {
+  border-radius: 200px 200px 30px 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .rounded-profile-bg-large {
+    border-radius: 170px 30px 30px 170px;
+  }
+}
+
